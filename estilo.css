@@ -71,7 +71,6 @@ img{
     margin: 3%;
     padding: 0%;
     font-size: 1.1rem;
-    
 }
 .pcorazul{
     color: var(--letras1);
@@ -80,28 +79,29 @@ img{
 .video iframe{
     width: 350px;
     height: 210px;
-    margin: 7%;
    display: flex;
-   padding: 1%;
+   padding: 6px;
+   margin: 24px;
 }
 .carousel-item{
    margin: 0%;
    display: flex;
    padding: 24px;
-   align-items: center;
+   justify-content: center;
 }
 .titulo_historia{
     color: var(--letras1);
     font-size: 1.4rem;
     text-align: center;
     display: flex;
-    margin: 6%;
+    justify-content: center;
 }
-.texto_historia{
+.texto_historia p{
     margin: 3%;
     padding: 1%;
     font-size: 1.1rem;
     display: flex;
+    text-align: left;
 }
 .todas_classes{
     padding: 1%;
@@ -123,6 +123,7 @@ img{
     border-radius: 20px;
    background: var(--hunter);
    margin: 10px;
+   text-align: left;
 }
 .hunter .estilo_class{
     margin: 3%;
@@ -130,75 +131,84 @@ img{
     font-size: 1.1rem;
     display: flex;
     line-height: 1.6rem;
+    text-align: left;
 }
-.boll{
-    list-style-type: disc !important;
- }
 .fighter{
     box-shadow: 0 4px 18px black;
     border-radius: 20px;
    background: var(--fighter);
    margin: 10px;
+   text-align: left;
 }
 .fighter p{
     margin: 3%;
     padding: 1%;
     font-size: 1.1rem;
     display: flex;
+    text-align: left;
 } 
 .ranger{
     box-shadow: 0 4px 18px black;
     border-radius: 20px;
    background: var(--ranger);
    margin: 10px;
+   text-align: left;
 }
 .ranger p{
     margin: 3%;
     padding: 1%;
     font-size: 1.1rem;
     display: flex;
+    text-align: left;
 } 
 .gunner{
     box-shadow: 0 4px 18px black;
     border-radius: 20px;
    background: var(--gunner);
    margin: 10px;
+   text-align: left;
 }
 .gunner p{
     margin: 3%;
     padding: 1%;
     font-size: 1.1rem;
     display: flex;
+    text-align: left;
 } 
 .force{
     box-shadow: 0 4px 18px black;
     border-radius: 20px;
    background: var(--force);
    margin: 10px;
+   text-align: left;
 }
 .force p{
     margin: 3%;
     padding: 1%;
     font-size: 1.1rem;
     display: flex;
+    text-align: left;
 } 
 .techter{
     box-shadow: 0 4px 18px black;
     border-radius: 20px;
    background: var(--techter);
    margin: 10px;
+   text-align: left;
 }
 .techter p{
     margin: 3%;
     padding: 1%;
     font-size: 1.1rem;
     display: flex;
+    text-align: left;
 } 
 .braver{
     box-shadow: 0 4px 18px black;
     border-radius: 20px;
    background: var(--braver);
    margin: 10px;
+   text-align: left;
 }
 .braver p{
     margin: 3%;
@@ -206,12 +216,14 @@ img{
     font-size: 1.1rem;
     display: flex;
     line-height: 1.6rem;
+    text-align: left;
 }
 .bouncer{
     box-shadow: 0 4px 18px black;
     border-radius: 20px;
    background: var(--bouncer);
    margin: 10px;
+   text-align: left;
 }
 .bouncer p{
     margin: 3%;
@@ -219,12 +231,14 @@ img{
     font-size: 1.1rem;
     display: flex;
     line-height: 1.6rem;
+    text-align: left;
 }
 .waker{
     box-shadow: 0 4px 18px black;
     border-radius: 20px;
    background: var(--waker);
    margin: 10px;
+   text-align: left;
 }
 .waker p{
     margin: 3%;
@@ -232,6 +246,10 @@ img{
     font-size: 1.1rem;
     display: flex;
     line-height: 1.6rem;
+    text-align: left;
+}
+.texto_historia .texto-logo{
+    color: var(--letras1);
 }
 .jogo{
     color: var(--letras1);
@@ -262,8 +280,6 @@ img{
     margin: 0%;
     padding: 0%;
 }
-
-
 
 
 @media screen and (min-width: 1024px)
@@ -343,7 +359,7 @@ img{
     
      }
      .texto_historia{
-        margin-left: 5%;
+       margin: 0;
         padding: 0;   
      }
      #button{
@@ -358,55 +374,57 @@ img{
      .hunter{
         padding: 0px;
         margin: 0 22% 0 23%; 
-        justify-content: center;
+        text-align: left;
      }
      .fighter{
         margin: 0 22% 0 23%; 
         padding: 0;
-        justify-content: center;
+        text-align: left;
      }
      .ranger{
         margin: 0 22% 0 23%; 
-        padding: 0;
-        justify-content: center;
+        padding: 0; 
+        text-align: left;
      }
      .gunner{
         margin: 0 22% 0 23%; 
         padding: 0;
-        justify-content: center;
+        text-align: left;
      }
      .force{
         margin: 0 22% 0 23%; 
         padding: 0;
-        justify-content: center;
+        text-align: left;
      }
      .techter{
         margin: 0 22% 0 23%; 
         padding: 0;
-        justify-content: center;
+        text-align: left;
      }
      .braver{
         margin: 0 22% 0 23%; 
         padding: 0;
-        justify-content: center;
+        text-align: left;
      }
      .bouncer{
         margin: 0 22% 0 23%; 
         padding: 0;
-        justify-content: center;
+        text-align: left;
      }
      .waker{
         margin: 0 22% 0 23%; 
         padding: 0;
-        justify-content: center; 
+        text-align: left;
      }
     .tudo{
         display: inline-block;    
     }
+
     #baixar .texto_historia{
         display: flex;
          flex-direction: column;
         align-items:center;
+        margin: 0;
     }
     .logo{
         width: 100%;
